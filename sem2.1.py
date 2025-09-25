@@ -1,26 +1,3 @@
-'''list1 = ['E', 'J', 'S', 'Z']
-list2 = ['3', 'L', '2', '5']
-list3 = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y', '1', '8']
-a = list(input())
-per1 = 0
-per2 = 0
-for i in range(len(a)//2+1):
-    if a[i] == a[-i-1]:
-        if a[i] in list3:
-            per1 += 1
-    elif list1.index(input(a[i])) == list2.index(input(a[-i-1])) or list2.index(input(a[i])) == list1.index(input(a[-i-1])):
-        per2 += 1
-    else:
-        print(''.join(a), ' is not a palindrome')
-        per2 = -1
-        break
-if per1 == len(a)//2+1:
-    print(''.join(a), ' is a mirrored palindrome')
-elif per1 > 0 and per2 == 0:
-    print(''.join(a), ' is a regular palindrome')
-elif per2 != -1:
-    print(''.join(a), ' is a mirrored string')'''
-
 list1 = ['E', 'J', 'S', 'Z']
 list2 = ['3', 'L', '2', '5']
 list3 = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y', '1', '8']
